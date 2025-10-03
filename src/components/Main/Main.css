@@ -1,0 +1,352 @@
+.main{
+    padding-top: 15px;
+    background-color: #1f293e;
+}
+.main .main-top {
+    max-width: 1050px;
+    font-size: 28px;
+    box-shadow: 0 0 10px ;
+    padding: 35px;
+    border-radius: 8px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    background-color:  #111827;
+}
+.main .main-top .main-top-info{}
+.main .main-top .main-top-info h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.main .main-top .main-top-info .main-top-text{
+    color: #767676;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.main .main-top .main-top-info .main-top-btn{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main .main-top .main-top-image{}
+.main .main-top .main-top-image img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.my-services {
+    padding: 45px;
+    margin-top: 120px;
+}
+.my-services .my-services-top{}
+.my-services .my-services-top h2{
+    color: white;
+    font-size:40px;
+    text-align: center;
+}
+.my-services .my-services-top p{
+    color: #767676;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.my-services .my-services-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: 3;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.my-services .my-services-info .my-services-box{
+    
+    width: 320px;
+    height: 200px;
+    background-color:  #111827 ;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.my-services .my-services-info .my-services-box .first-box{
+    padding: 15px;
+}
+.my-services .my-services-info .my-services-box .first-box i{
+    color: dodgerblue;
+    font-size: 50px;
+    display: block;
+    margin: auto;
+    
+}
+.my-services .my-services-info .my-services-box .first-box p{
+    color: white;
+    text-align: center;
+    margin: 25px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* education */
+
+.education {
+    color: white;
+    padding-top: 120px;
+}
+.education .education-title{
+    font-size: 38px;
+    text-align: center;
+}
+.education .education-text {
+    color: #767676;
+    text-align: center;
+    max-width: 500px;
+    font-size: 17px;
+    margin: auto;
+}
+.education .education-box{
+    background-color: #111827;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+}
+.education .education-box .education-box-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.education .education-box .education-box-info .education-info-left{}
+.education .education-box .education-box-info .education-info-left h4.education-info-course{
+    margin-bottom: 30px;
+}
+
+.education .education-box .education-box-info .education-info-left .education-info-student{
+    display: flex;
+    align-items:center  ;
+    gap: 40px;
+}
+
+.education .education-box .education-box-info .education-info-left .education-info-student p{
+    display: block;
+     color: #767676;
+    margin: 0;
+}
+.education .education-box .education-box-info .education-info-left .education-info-student span{
+    display: block;
+    font-size: 12px;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding: 2px 5px;
+
+}
+.education .education-box .education-box-info .education-info-right{
+    max-width: 500px;
+}
+.education .education-box .education-box-info .education-info-right h3{}
+.education .education-box .education-box-info .education-info-right p.education-info-text{
+    color: #767676;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+.recomendation {
+    color: white;
+    margin-top: 150px;
+    padding: 40px;
+}
+.recomendation h3.recomendation-title{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.recomendation p.recomendation-text{
+    color: #767676;
+    text-align: center;
+    max-width: 500px;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.recomendation .recomendation-box {
+    display: flex;
+    justify-content: space-between;
+}
+.recomendation .recomendation-box .recomendation-person {
+    background-color: #111827;
+    width: 300px;
+    border-radius: 8px;
+    padding: 25px;
+}
+.recomendation .recomendation-box .recomendation-person .stars {
+    color: dodgerblue;
+}
+.recomendation .recomendation-box .recomendation-person .stars i{
+    margin-right: 5px;
+}
+.recomendation .recomendation-box .recomendation-person h4.recomendation-review {
+    font-size: 22px;
+    margin-top: 12px;
+}
+.recomendation .recomendation-box .recomendation-person p.recomendation-context {
+    font-size: 16px;
+    color: #767676;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.recomendation .recomendation-box .recomendation-person .recomendation-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.recomendation .recomendation-box .recomendation-person .recomendation-info .image {}
+.recomendation .recomendation-box .recomendation-person .recomendation-info .image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.recomendation .recomendation-box .recomendation-person .recomendation-info .about-person {}
+.recomendation .recomendation-box .recomendation-person .recomendation-info .about-person .name {}
+.recomendation .recomendation-box .recomendation-person .recomendation-info .about-person .job {
+    color: #767676;
+    font-size: 16px;
+}
+
+.portfolio {
+    margin-top: 120px;
+    padding: 30px;
+}
+.portfolio .portfolio-title{
+   
+}
+.portfolio .portfolio-text{}
+.portfolio .portfolio-box{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio .portfolio-box .portfolio-info {
+      position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+.portfolio .portfolio-box .portfolio-info:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.portfolio .portfolio-box .portfolio-info::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none
+}
+.portfolio .portfolio-box .portfolio-info:hover::after{
+    opacity: 1;
+}
+
+.portfolio .portfolio-box .portfolio-info a{}
+.portfolio .portfolio-box .portfolio-info a img{
+    object-fit: cover;
+    max-width: 320px;
+    min-height: 300px;
+    border-radius: 8px;
+
+    display: block;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+
+
+
+.main-field-title{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.main-field-text{
+    color: #767676;
+    text-align: center;
+    max-width: 500px;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+.blog {
+    margin-top: 120px !important;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+.blog .blog-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog .blog-box .blog-info{
+    background-color: #111827;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.blog .blog-box .blog-info .blog-image{
+    border-radius: 8px;
+    /* max-width: 300px; */
+}
+.blog .blog-box .blog-info .blog-image img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.blog .blog-box .blog-info .blog-pad{
+    padding: 15px;
+}
+.blog .blog-box .blog-info .blog-info-title{
+    color: white;
+    font-size: 22px;
+}
+.blog .blog-box .blog-info .blog-info-text{
+    color: #767676;
+}
+.blog .blog-box .blog-info a{
+    color: dodgerblue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

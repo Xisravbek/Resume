@@ -1,0 +1,135 @@
+
+.left-container{
+    width: 300px;
+    position: relative;
+}
+
+
+
+.left{
+    /* margin: 0 0 0 10px ; */
+    padding: 25px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #111827;
+    
+}
+.left::-webkit-scrollbar{
+    
+    width: 5px;
+    background-color: #898f9d;
+}
+.left::-webkit-scrollbar-thumb{
+    background: #f97316; 
+    
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.top-info {
+    max-width: 300px;
+    
+    padding: 10px 0 10px 10px;
+}
+.top-info img{
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.top-info h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.top-info .top-info-text{
+    color: lightslategray;
+    text-align: center;
+}
+.top-info .top-info-box{
+    list-style: none;
+    /* padding:  15px; */
+    display: flex;
+    justify-content: space-between;
+}
+.top-info ul.top-info-box{
+    margin-bottom: 0;
+}
+.top-info ul.top-info-box li{
+    background-color: #f97316;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+/* short-info */
+
+.my-hr{
+    border: 1px solid  #767676;
+    border-radius: 100px;
+    margin: 35px 0;
+}
+.short-info {}
+
+.short-info .short-info-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+.short-info .short-info-box h4{
+    background-color: #f97316;
+    border-radius: 6px;
+    padding: 5px;
+}
+.short-info .short-info-box p{
+    color: #767676;
+    font-size: 18px;
+}
+
+.language-info {}
+.language-info .language-title {
+    color: white;
+}
+.language-info .language-info-option {
+    margin-bottom: 20px;
+}
+.language-info .language-info-option .language-info-box{
+    display: flex;
+    justify-content: space-between;
+}
+.language-info .language-info-option .language-info-box .language-info-h4{
+    color:#767676 ;
+}
+.language-info .language-info-option .language-info-box .language-info-skill{
+    color:#767676 ;
+}
+
+
+.extra-skills-info {}
+.extra-skills-info .extra-skills-title{
+    color: white;
+}
+.extra-skills-info .extra-skills-box{
+    list-style: none;
+}
+.extra-skills-info .extra-skills-box .extra-skills-line {
+    display: flex;
+    gap: 5px;
+}
+.extra-skills-info .extra-skills-box .extra-skills-line span {
+    color: #f97316;
+}
+.extra-skills-info .extra-skills-box .extra-skills-line p {
+    color: #767676;
+}
+
+.download .download-btn{
+    background-color: #f97316;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,28 @@
+.nav-head{
+    /* width: 20px; */
+    position: relative;
+}
+
+.navbar{
+    position: sticky !important;
+    right: 0;
+    top: 0;
+}
+.navbar .ant-menu-item {
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .ant-layout{
+        max-width: 70px !important;
+    min-width: 70px !important;
+}
+
+.ant-layout-sider,  .ant-layout-sider-dark{
+    max-width: 70px !important;
+    min-width: 70px !important;
+    /* margin: 0 !important; */
+    
+}
+

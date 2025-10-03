@@ -1,0 +1,86 @@
+.contact {}
+.contact .contact-box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+.contact .contact-box .contact-left{
+    
+}
+.contact .contact-box .contact-left h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.contact .contact-box .contact-left .contact-form{
+    border-radius: 8px;
+    background-color: #111827;
+    padding: 20px;  
+}
+.contact .contact-box .contact-left .contact-form label{
+    display: block;
+    color: #767676;
+    margin-bottom: 25px;
+}
+.contact .contact-box .contact-left .contact-form label input, textarea{
+    width: 440px;
+    height: 50px;
+    border-radius: 12px;
+    display: block;
+    background-color: #2b3855;
+    border: none;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 18px;
+}
+.contact .contact-box .contact-left .contact-form label textarea{
+    height: 100px;
+}
+.contact .contact-box .contact-left .contact-form button.send-btn{
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.contact .contact-box .contact-right {
+    
+}
+.contact .contact-box .contact-right h3{
+     color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.contact .contact-box .contact-right .contact-info{
+    position: relative;
+    background-color: #111827;
+    border-radius: 8px;
+    width: 470px;
+    padding: 15px;
+    /* margin-bottom: 40px; */
+    margin-top: 50px;
+}
+.contact .contact-box .contact-right .contact-info i{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 25px);
+
+}
+.contact .contact-box .contact-right .contact-info .contact-double{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact-box .contact-right .contact-info .contact-double p.contact-text{
+    color: #767676;
+}

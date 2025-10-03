@@ -1,0 +1,24 @@
+.App{
+    display: flex;
+    background-color:  #1f293e;  
+    justify-content: space-between;
+}
+
+.hire-btn{
+    background-color: #2563eb;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.my-hr{
+    background-color:#767676 ;
+    box-shadow: 0 0 40px;
+}
+
+.container{
+    width: 100%;
+    max-width:  1600px;
+    margin: 0 auto;
+}
