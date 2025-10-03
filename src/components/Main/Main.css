@@ -32,6 +32,7 @@
     gap: 3px;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .main .main-top .main-top-image{}
@@ -350,3 +351,14 @@
     display: flex;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+

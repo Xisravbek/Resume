@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Left.css"
 import MyImage from '../../images/photo_2025-06-08_09-27-26.jpg';
 import {Flex, Progress} from 'antd';
 
 const Left = () => {
+  const [openLeft , setOpenLeft ] = useState(true)
+
+  
   return (
-    <div className='left-container'>
-      <div className='left'>
+    <div className='for-left'>
+      <button  onClick={() => setOpenLeft(!openLeft)} className='hire-btn open-btn'>
+        <div className="fa-solid fa-bar-chart"></div>
+      </button>
+        <div className='left-container'>
+      {
+          openLeft &&
+
+        <div className='left'>
       <div className="top-info">
         <img src={MyImage} alt="Image" />
         <h3>Xisravbek Xamidov</h3>
@@ -153,6 +163,8 @@ const Left = () => {
         <button className="download-btn hire-btn">Download <i class="fa-regular fa-circle-down"></i></button>
       </div>
 
+    </div>
+      }
     </div>
     </div>
   )

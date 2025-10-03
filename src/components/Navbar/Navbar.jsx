@@ -42,7 +42,7 @@ const items = [
   { key: "recomendation", icon: <MessageOutlined />, label: "" },
   { key: "portfolio", icon: <FolderOutlined />, label: "" },
   { key: "blog", icon: <BookOutlined />, label: "" },
-  { key: "team", icon: <TeamOutlined />, label: "" },
+  { key: "contact", icon: <TeamOutlined />, label: "" },
 ];
 
 

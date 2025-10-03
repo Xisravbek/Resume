@@ -26,7 +26,11 @@ const Main = () => {
         <div className="main-top-info">
           <h1>I’m Khisravbek Khamidov Full-Stack Developer</h1>
         <p className="main-top-text">Code is not just a set of instructions, it is a tool that turns dreams into reality. I am always learning new technologies and trying to apply them in my projects. My goal is to strive for excellence and provide the best result for my clients !</p>
-        <button className="main-top-btn hire-btn">Hire me <span className='fa-solid fa-arrow-right'></span></button>
+        <button  className="main-top-btn hire-btn">
+          <Link to='contact'>
+          Hire me <span className='fa-solid fa-arrow-right'></span>
+          </Link>
+        </button>
         </div>
         <div className="main-top-image">
           <img src={MyImage} alt="image " />

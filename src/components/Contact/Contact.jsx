@@ -32,7 +32,7 @@ const Contact = () => {
   
 
   return (
-    <div className='contact'>
+    <div name={'contact'} className='contact'>
       <div className="contact-box">
         <div className="contact-left">
           <h3>Leave me your info</h3>
@@ -54,7 +54,7 @@ const Contact = () => {
               <textarea name='message' type="text" />
             </label>
             
-            <Button  type='submit' className='hire-btn send-btn'>Send Message</Button>
+            <button  type='submit' className='hire-btn send-btn'>Send Message</button>
           </form>
         </div>
         <div className="contact-right">

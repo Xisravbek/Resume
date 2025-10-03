@@ -22,3 +22,34 @@
     max-width:  1600px;
     margin: 0 auto;
 }
+
+@media (max-width: 1500px) {
+    .left-container{
+        width: 300px !important;
+        
+    }
+    .left{
+        display: block !important;
+    }
+}
+@media (max-width: 1200px) {
+    .open-btn{
+        display: block !important;
+    }
+    .left{
+        display: none ;
+    }
+    .left-container{
+        width: 10px !important;
+    }
+}
+
+.open-btn{
+     display: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+}
