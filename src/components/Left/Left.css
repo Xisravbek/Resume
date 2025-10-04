@@ -39,6 +39,7 @@
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    object-position: 50% 20%;
 }
 .top-info h3{
     color: white;
@@ -133,3 +134,4 @@
     padding: 15px;
     font-size: 18px;
 }
+

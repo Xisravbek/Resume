@@ -4,6 +4,7 @@
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
+    flex-wrap: wrap;
 }
 .contact .contact-box .contact-left{
     
@@ -83,4 +84,18 @@
 }
 .contact .contact-box .contact-right .contact-info .contact-double p.contact-text{
     color: #767676;
+}
+
+@media (max-width: 420px) {
+    .contact .contact-box .contact-left .contact-form label input, textarea{
+        max-width: 250px;
+    }
+
+    .contact .contact-box .contact-right .contact-info{
+        max-width: 280PX;
+        padding-top: 50px;
+    }
+    .contact .contact-box .contact-right h3{
+        margin-top: 25px;
+    }
 }

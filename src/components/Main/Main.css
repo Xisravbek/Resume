@@ -10,6 +10,7 @@
     border-radius: 8px;
     margin: 30px;
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     background-color:  #111827;
 }
@@ -40,6 +41,7 @@
     width: 300px;
     height: 400px;
     object-fit: cover;
+    object-position: 50% 40%;
 }
 
 
@@ -193,6 +195,7 @@
 .recomendation .recomendation-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .recomendation .recomendation-box .recomendation-person {
     background-color: #111827;
@@ -362,3 +365,36 @@
 
 
 
+
+@media (max-width: 1200px){
+    .main-top{
+        flex-wrap: wrap;
+    }
+    .main img{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .main{
+        max-width: 300px;
+    }
+    .main-top{
+        flex-wrap: wrap;
+        margin: 5px !important;
+        padding: 15px !important;
+    }
+    .main h1{
+        font-size: 22px ;
+    }
+    .main p{
+        font-size: 16px;
+    }
+    .main img{
+        margin-top: 20px;
+        max-width: 280px;
+    }
+
+    .recomendation .recomendation-box .recomendation-person {
+        margin-bottom: 20px;
+    }
+}
