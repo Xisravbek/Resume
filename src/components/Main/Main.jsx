@@ -4,6 +4,7 @@ import MyImage from '../../images/photo_2025-06-08_09-27-26.jpg';
 import PizzaImage from '../../images/Снимок экрана 2025-10-01 213758.png'
 import MessengerImage from '../../images/image.png';
 import FigmaImage from '../../images/Снимок экрана 2025-10-02 153335.png'
+import BagImage from '../../images/Снимок экрана 2025-10-05 150219.png'
 
 
 import ReactImage from '../../images/0_x-HyaNxF4CJW0gSc.png'
@@ -235,6 +236,12 @@ const Main = () => {
           <div className="portfolio-info">
             <a target='_blank' href="https://velvety-cupcake-16de82.netlify.app/">
               <img src={FigmaImage} alt="web" />
+            </a>
+          </div>
+
+          <div className="portfolio-info">
+            <a target='_blank' href="https://school-bags.vercel.app/">
+              <img src={BagImage} alt="web" />
             </a>
           </div>
 
