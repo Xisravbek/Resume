@@ -249,12 +249,14 @@
 .portfolio .portfolio-box{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .portfolio .portfolio-box .portfolio-info {
       position: relative;
     display: inline-block;
     overflow: hidden;
     border-radius: 8px;
+    margin-bottom: 20px;
     
 }
 .portfolio .portfolio-box .portfolio-info:hover{
